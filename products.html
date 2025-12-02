@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hygiene Products | SaniClean – Premium Sanitation Supplies</title>
+  
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Sani<span>Clean</span></div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="products.html" class="active">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background-image: url('https://unsplash.com/photos/silver-imac-with-keyboard-and-trackpad-inside-room-KE0nC8-58MQ?w=1600&auto=format&fit=crop');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Premium Hygiene Products</h1>
+      <p>High-quality, eco-friendly sanitation supplies for homes & businesses</p>
+    </div>
+  </section>
+
+  <!-- Product Categories Filter -->
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-title">Our Product Range</h2>
+      
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-category="all">All Products</button>
+        <button class="filter-btn" data-category="sanitizers">Hand Sanitizers</button>
+        <button class="filter-btn" data-category="soaps">Soaps & Detergents</button>
+        <button class="filter-btn" data-category="disinfectants">Disinfectants</button>
+        <button class="filter-btn" data-category="equipment">Equipment</button>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="products-grid">
+        
+        <div class="product-card" data-category="sanitizers">
+          <img src="https://images.unsplash.com/photo-1583947581924-86019b5e7925?w=600" alt="Hand Sanitizer">
+          <div class="product-info">
+            <h3>Alcohol-Based Hand Sanitizer</h3>
+            <p>70% alcohol, kills 99.9% germs · 500ml & 5L</p>
+            <div class="price">GHS 45 – 350</div>
+            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="soaps">
+          <img src="https://images.unsplash.com/photo-1559598467-f8b76c5e1d0b?w=600" alt="Antibacterial Soap">
+          <div class="product-info">
+            <h3>Antibacterial Liquid Soap</h3>
+            <p>Moisturizing formula · 1L & 4L refill</p>
+            <div class="price">GHS 65 – 220</div>
+            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="disinfectants">
+          <img src="https://images.unsplash.com/photo-1583258290371-3a4803e3c4f7?w=600" alt="Surface Disinfectant">
+          <div class="product-info">
+            <h3>Hospital-Grade Surface Disinfectant</h3>
+            <p>Multi-surface spray · 1L & 5L</p>
+            <div class="price">GHS 120 – 550</div>
+            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="equipment">
+          <img src="https://images.unsplash.com/photo-1581093577422-7a8c7e9e6c8e?w=600" alt="Automatic Dispenser">
+          <div class="product-info">
+            <h3>Touchless Sanitizer Dispenser</h3>
+            <p>Wall-mounted · 1200ml capacity · Battery operated</p>
+            <div class="price">GHS 850</div>
+            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="soaps">
+          <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=600" alt="Handwash Station">
+          <div class="product-info">
+            <h3>Portable Handwash Station</h3>
+            <p>Perfect for events & construction sites</p>
+            <div class="price">GHS 2,800</div>
+            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="disinfectants">
+          <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600" alt="Bleach Concentrate">
+          <div class="product-info">
+            <h3>Eco Bleach Concentrate</h3>
+            <p>Sodium hypochlorite 5% · 4L</p>
+            <div class="price">GHS 180</div>
+            <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Table (Still Included as Required) -->
+  <section class="pricing">
+    <div class="container">
+      <h2 class="section-title">Bulk & Wholesale Pricing</h2>
+      <div class="pricing-table">
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Size/Pack</th>
+              <th>Retail Price</th>
+              <th>Wholesale (10+)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hand Sanitizer Gel</td>
+              <td>500ml × 24</td>
+              <td>GHS 1,080</td>
+              <td><strong>GHS 850</strong></td>
+            </tr>
+            <tr>
+              <td>Liquid Hand Soap</td>
+              <td>5L × 4</td>
+              <td>GHS 1,200</td>
+              <td><strong>GHS 960</strong></td>
+            </tr>
+            <tr>
+              <td>Surface Disinfectant</td>
+              <td>5L × 4</td>
+              <td>GHS 2,200</td>
+              <td><strong>GHS 1,800</strong></td>
+            </tr>
+            <tr>
+              <td>Touchless Dispenser</td>
+              <td>Unit</td>
+              <td>GHS 850</td>
+              <td><strong>GHS 720</strong></td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="note">Contact us for government, school, and NGO special rates</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="product-features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <i class="fas fa-shield-alt fa-3x"></i>
+          <h4>Lab Tested</h4>
+          <p>All products certified by Ghana Standards Authority</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-leaf fa-3x"></i>
+          <h4>Eco-Friendly</h4>
+          <p>Biodegradable formulas, minimal plastic use</p>
+        </div>
+        <div class="feature-item">
+          <i class="fas fa-truck fa-3x"></i>
+          <h4>Free Delivery</h4>
+          <p>Free nationwide delivery on orders over GHS 1,000</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Ready to Stock Up on Quality Hygiene Products?</h2>
+      <p>Order online or contact our sales team for bulk purchases.</p>
+      <a href="contact.html" class="btn-primary large">Shop Now / Inquire</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>SaniClean</h3>
+          <p>Leading sanitation & hygiene solutions provider.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-phone"></i> +233 55 123 4567</p>
+          <p><i class="fas fa-envelope"></i> sales@saniclean.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Accra, Ghana</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 SaniClean. All rights reserved. Designed with <i class="fas fa-heart"></i> for cleanliness.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    // Simple filter functionality
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        
+        const category = btn.getAttribute('data-category');
+        document.querySelectorAll('.product-card').forEach(card => {
+          if (category === 'all' || card.getAttribute('data-category') === category) {
+            card.style.display = 'block';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    function myFunction() {
+      const x = document.getElementById("myTopnav");
+      x.classList.toggle("responsive");
+    }
+  </script>
+</body>
+</html>

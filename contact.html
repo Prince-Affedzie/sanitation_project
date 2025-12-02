@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us | SaniClean – Get In Touch Today</title>
+  
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Sani<span>Clean</span></div>
+    <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background-image: url('/images/headway-5QgIuuBxKwM-unsplash.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Get In Touch</h1>
+      <p>We’re here to help you create a cleaner, healthier environment</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" required placeholder="john@example.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+233 55 123 4567">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject *</label>
+              <select id="subject" name="subject" required>
+                <option value="">Choose one...</option>
+                <option>Service Inquiry</option>
+                <option>Product Order</option>
+                <option>Partnership</option>
+                <option>Complaint/Feedback</option>
+                <option>Other</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Your Message *</label>
+              <textarea id="message" name="message" rows="6" required placeholder="Tell us how we can help..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn-primary large">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          
+          <div id="form-message" style="margin-top: 20px; padding: 15px; border-radius: 10px; display: none;"></div>
+        </div>
+
+        <!-- Contact Info & Map -->
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          
+          <div class="info-cards">
+            <div class="info-card">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <h4>Office Location</h4>
+              <p>Plot 45, Liberation Road<br>Airport Residential Area<br>Accra, Ghana</p>
+            </div>
+            
+            <div class="info-card">
+              <i class="fas fa-phone-alt fa-2x"></i>
+              <h4>Call Us</h4>
+              <p><strong>+233 55 123 4567</strong><br><small>Mon–Sat: 8am–6pm</small></p>
+            </div>
+            
+            <div class="info-card">
+              <i class="fas fa-envelope fa-2x"></i>
+              <h4>Email Us</h4>
+              <p>info@saniclean.com<br>sales@saniclean.com</p>
+            </div>
+            
+            <div class="info-card">
+              <i class="fas fa-clock fa-2x"></i>
+              <h4>Emergency 24/7</h4>
+              <p><strong>+233 50 999 8888</strong><br><small>Waste & septic emergencies</small></p>
+            </div>
+          </div>
+
+          <!-- Google Map -->
+          <div class="map-container">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.589237189165!2d-0.201938685238423!3d5.603717995963946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf908b0a9a4a3d%3A0x3e9c2b7d8f8e9a2b!2sAccra%2C%20Ghana!5e0!3m2!1sen!2sgh!4v1698000000000!5m2!1sen!2sgh" 
+              width="100%" 
+              height="350" 
+              style="border:0; border-radius: 15px;" 
+              allowfullscreen="" 
+              loading="lazy">
+            </iframe>
+          </div>
+
+          <!-- Social Links -->
+          <div class="social-links">
+            <h4>Follow Us</h4>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container">
+      <h2>Need Immediate Assistance?</h2>
+      <p>Call our 24/7 emergency line: <strong>+233 50 999 8888</strong></p>
+      <a href="tel:+233509998888" class="btn-primary large">
+        <i class="fas fa-phone"></i> Call Now
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>SaniClean</h3>
+          <p>Leading sanitation & hygiene solutions provider in Ghana.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Info</h4>
+          <p><i class="fas fa-phone"></i> +233 55 123 4567</p>
+          <p><i class="fas fa-envelope"></i> info@saniclean.com</p>
+          <p><i class="fas fa-map-marker-alt"></i> Accra, Ghana</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 SaniClean. All rights reserved. Designed with <i class="fas fa-heart"></i> for cleanliness.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script>
+    // Navbar toggle
+    function myFunction() {
+      const x = document.getElementById("myTopnav");
+      x.classList.toggle("responsive");
+    }
+
+    // Form submission with validation feedback
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Simple success message
+      const msg = document.getElementById('form-message');
+      msg.style.display = 'block';
+      msg.style.background = '#d4edda';
+      msg.style.color = '#155724';
+      msg.innerHTML = '<i class="fas fa-check-circle"></i> Thank you! Your message has been sent successfully. We’ll get back to you within 24 hours.';
+      
+      this.reset();
+    });
+  </script>
+</body>
+</html>
