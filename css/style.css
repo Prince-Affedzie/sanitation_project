@@ -363,10 +363,7 @@ footer { background: #111; color: #ddd; padding: 60px 0 20px; }
 
 .about-hero .hero-image {
   background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600&auto=format&fit=crop&q=80');
-  /* Alternative beautiful options (uncomment one if you prefer):
-  background-image: url('https://images.unsplash.com/photo-1593115247432-d2c1f54d1e1e?w=1600');
-  background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1600');
-  */
+  
 }
 
 /* Story Grid */
